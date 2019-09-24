@@ -1,13 +1,13 @@
 /* tslint:disable */
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var path = require('path');
-var TerserPlugin = require('terser-webpack-plugin');
-var webpack = require('webpack');
-var MiniCssExtractPlugin = require("mini-css-extract-plugin");
-var PurifyCSSPlugin = require("purifycss-webpack");
-var glob = require('glob');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
+const webpack = require('webpack');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const PurifyCSSPlugin = require("purifycss-webpack");
+const glob = require('glob');
 
-var PATHS = {
+const PATHS = {
     app: path.join(__dirname, "src")
 };
 
